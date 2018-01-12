@@ -47,6 +47,7 @@ class DefaultExtension: Extension {
 #endif
     registerTag("include", parser: IncludeNode.parse)
     registerTag("extends", parser: ExtendsNode.parse)
+    registerTag("import", parser: ImportNode.parse)
     registerTag("block", parser: BlockNode.parse)
     registerTag("filter", parser: FilterNode.parse)
   }
